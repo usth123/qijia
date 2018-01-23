@@ -1,0 +1,48 @@
+/*banner*/
+.banner{ width:100%;margin-top: 1.56rem;position: relative;}
+.banner .swiper-container img{ width:100%;}
+.banner .swiper-container .swiper-pagination-bullet{ width:0.15rem; height:0.15rem; opacity:0.4;}
+.banner .swiper-container .swiper-pagination-bullet-active{ background: linear-gradient(#E03233, #E03233);  opacity:1;}
+.nav{width: 100%;height: 3.8rem;}
+.nav ul{width: 100%;height: 100%;border-bottom: 0.01rem solid #EAEAEA }
+.nav ul li{width: 1.32rem;height: 1.28rem;float: left;margin: 0.42rem 0.27rem 0rem;text-align: center;}
+.nav ul li a{width: 100%; height: 100%;display: block;}
+.nav ul li a:hover p{color: #333}
+.nav ul li a img{width: 0.92rem;height: 0.94rem;display: inline-block;margin-left: 0.26rem}
+.nav ul li a p{width: 1.6rem; font-size: 0.2rem;margin-top: 0.2rem}
+.sub_toutiao_list{width: 100%;padding:0rem 0.34rem;border-bottom: 0.01rem solid #EAEAEA}
+.sub_toutiao_list p{width: 100%;height: 0.77rem;line-height: 0.77rem;font-size: 0.24rem;color: #333}
+.sub_toutiao_list .swiper-container{width: 100%;height: 4.45rem;}
+.sub_toutiao_list .swiper-container .swiper-wrapper{width: 6.03rem;height: 4.45rem;}
+.sub_toutiao_list .swiper-container .swiper-wrapper .swiper-slide{width: 100%;height: 4.45rem;}
+.sub_toutiao_list .swiper-container .swiper-wrapper .swiper-slide ul{width: 100%;height: 1rem;margin-top: 0.1rem}
+.sub_toutiao_list .swiper-container .swiper-wrapper .swiper-slide ul li{width: 1.96rem; height: 1rem;float: left;margin-right: 0.05rem;background: #F6F6F6}
+.sub_toutiao_list .swiper-container .swiper-wrapper .swiper-slide ul li p{width: 1.7rem;height: 0.6rem;font-size: 0.22rem;color:#333;margin-left: 0.22rem;margin-top: 0.26rem;line-height: 0.3rem;
+		 text-overflow: ellipsis;overflow: hidden;display:-webkit-box; -webkit-line-clamp:2;-webkit-box-orient:vertical;}
+.sub_toutiao_list .swiper-container img{width: 6.03rem;height: 3.03rem}
+.advert .ad{width: 100%;height: 3.14rem;border-bottom: 0.01rem solid #EAEAEA;padding-left: 0.34rem}
+.advert p{width: 6.85rem;height: auto;margin-top: 0.14rem;font-size: 0.28rem;color: #000;}
+.advert  .img{width: 6.9rem;height: 1.4rem;margin-top: 0.24rem}
+.advert  .img span{display: inline-block;width: 2.22rem;height: 1.4rem;overflow: hidden;}
+.advert  .img img{width:2.22rem;height: auto;float: left;margin-right:0.08rem;}
+.advert  .img img:nth-last-chlid{margin-right: 0rem;}
+.advert .text{width: 6.85rem;height: 0.84rem;padding-top: 0.3rem;color: #B5B5B5; }
+.advert .text span{margin-right: 0.1rem}
+.advert .text span.lt{display: inline-block;background: #49b8d7;color: #fff;text-align: center;border-radius: 0.1rem;font-size: 0.26rem;width: 1rem }
+.advert .text i{width: 0.05rem;height: 0.05rem;background: #ccc;display: inline-block;border-radius: 50%;margin-bottom: 0.04rem;margin-right: 0.1rem}
+.advert .text b{font-size: 0.2rem;font-weight: 400;}
+.advert .text p{width: 0.4rem;height: 0.3rem;float: right;border-radius: 0.3rem;margin: 0.08rem 0.06rem 0rem 0rem; }
+.advert .text p img{width: 0.4rem;height: 0.3rem}
+.advert .ad1{width: 100%;height: 1.2rem;border-bottom: 0.01rem solid #EAEAEA;padding-left: 0.34rem}
+.advert .ad a{width: 100%;height: 100%}
+.advert .ad1-p{height: 0.66rem}
+.advert .ad1 .text{padding-top:0rem }
+.advert .ad2{width: 100%;height: 2.2rem;border-bottom: 0.01rem solid #EAEAEA;padding-left: 0.34rem ;padding-top: 0.28rem}
+.advert .ad2 .text{width: 4.6rem;height: 1.6rem;float: left;padding-top: 0rem;}
+.advert .ad2 .text p{width: 3.6rem;height: 0.5rem;font-size: 0.28rem;color: #000;margin-top:0rem;line-height:0.5rem;float: left;}
+.advert .ad2 .text div{width: 100%;height: auto;margin-top: 1.2rem}
+.advert .ad2 .text div span{font-size: 0.2rem;margin-right: 0.1rem}
+.advert .ad2 .text div i{width: 0.05rem;height: 0.05rem;background: #ccc;display: inline-block;border-radius: 50%;margin-bottom: 0.04rem;margin-right: 0.1rem}
+.advert .ad2 .text .c{width: 0.4rem;height: 0.3rem;float: right;border-radius: 0.3rem;margin-top: 0.06rem;margin-right: 0.16rem}
+
+

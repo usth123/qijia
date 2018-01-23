@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="北京装修,北京装修公司,北京装修网,北京建材,北京家居家具">
+	<meta name="description" content="齐家北京装修网是一家集北京装修、北京装修公司、北京建材、北京家居领域的电子商务网站，通过齐家北京装修网电子商务平台为北京装修,北京装修公司,北京建材,北京家居家具提供一整套的电子商务解决方案，帮助用户轻松实现装修。">
+	<meta name="viewport" content="width=device-width,  initial-scale=1, maximum-scale=1, ,minimun-scale=1, user-scalable=no">
+	<title>齐家北京装修,北京装修公司,北京建材,北京家居家具-齐家网手机版</title>
+	<link rel="shortcut icon" type="image/x-icon" href=favicon.ico>
+	<link rel="stylesheet" type="text/css" href="css/m_base.css">
+	<link rel="stylesheet" type="text/css" href="css/son.css">
+	<script type="text/javascript" src="js/adaptive.js"></script>
+	<script src="js/jquery-1.10.1.min.js"></script>
+	<script src="js/swiper-3.4.2.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/swiper-3.4.2.min.css">
+</head>
+<body>
+	<div class="m_layout">
+		<header class="login-header">
+			<a class="return" href="home.html"></a>
+			<p>登录</p>
+		</header>
+		<div class="login-n">
+			<a class="login-qi" id="qi" href="#">齐家账号</a>
+			<a class="login-fast" id="kuai" href="#">快速登录</a>
+		</div>
+		<form class="forms" id="dl1" action="#">
+			<input type="text" placeholder="用户名/邮箱/手机号" class="form-tex use"><br>
+			<input type="password" placeholder="请输入密码" class="form-tex paw"><br>
+			<input type="checkbox" id="checke" checked><label for="checke">一个月之内免登陆</label><br>
+			<button type="submit">登录</button>
+			<i class="use-lo"></i>
+			<i class="paw-lo"></i>
+		</form>
+		<form class="forms" id="dl2" action="#">
+			<input type="text" placeholder="请输入手机号码" class="form-tex shou"><br>
+			<input type="text" placeholder="请输入验证码" class="form-tex yan"><br>
+			<input type="text" placeholder="请输入短信校验码" class="form-tex duan">
+			<button class="fs">发送短信</button>
+			<input type="checkbox" id="checke" checked><label for="checke">一个月之内免登陆</label><br>
+			<button type="submit">登录</button>
+			<i class="shou-lo"></i>
+			<i class="yan-lo"></i>
+			<i class="duan-lo"></i>
+		</form>
+		<div class="login-forget" id="login-f">
+			<a class="register" href="#">立即注册</a>
+			<a class="forget" href="#">忘记密码</a>
+		</div>
+		<div class="login-other">
+			<div class="left"></div>
+			<span>其他账号登录</span>
+			<div class="right"></div>
+		</div>
+		<div class="login-tu">
+			<a class="qq" href="#"></a>
+			<a class="weibo" href="#"></a>
+		</div>
+		<footer class="login-fonter">
+			<div>
+				<a href="index.html">
+					<i class="login-index"></i>
+					<span>首页</span>
+				</a>
+				<a href="Login.html">
+					<i class="login-log"></i>
+					<span>登录</span>
+				</a>
+				<a href="#">
+					<i class="login-zx"></i>
+					<span>咨询</span>
+				</a>
+				<a href="#">
+					<i class="login-quan"></i>
+					<span>全国</span>
+				</a>
+			</div>
+			<p>copyright © 2005-2016齐家Jia.com版权所有</p>
+		</footer>
+	</div>
+
+
+	<script type="text/javascript">
+		var btn1=document.getElementById("qi");//齐家账号
+		var btn2=document.getElementById("kuai");//快速登录
+		var dl1=document.getElementById("dl1");//齐家账号面板
+		var dl2=document.getElementById("dl2");//快速登录面板
+		var lf=document.getElementById("login-f");//忘记注册
+
+		btn1.onclick=function() {
+			dl1.style.display="block";
+			dl2.style.display="none";
+			btn1.style.color="#E95858";
+			btn1.style.borderBottom="0.02rem solid #DC0202";
+			btn2.style.color="#9F9F9F";
+			btn2.style.borderBottom="none";
+			lf.style.marginTop="0";
+		}
+
+		btn2.onclick=function() {
+			dl2.style.display="block";
+			dl1.style.display="none";
+			btn1.style.color="#9F9F9F";
+			btn1.style.borderBottom="none";
+			btn2.style.color="#E95858";
+			btn2.style.borderBottom="0.02rem solid #DC0202";
+			lf.style.marginTop="0.86rem";
+		}
+		
+// 		.login-n a.login-qi{color: #E95858}
+// .login-n a.login-fast{border-bottom: none;}
+	</script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+/* CSS Document */
+*,::before,::after{ margin:0; padding:0; box-sizing:border-box;}
+
+a, article, aside, audio, b, blockquote, body, canvas, caption, dd,  details,div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, label, legend, li, menu, nav, object, ol, output, p,s, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video
+ { margin: 0; padding: 0;  -webkit-touch-callout: none;/*当你触摸并按住触摸目标时候，禁止或显示系统默认菜单 */-webkit-tap-highlight-color: rgba(0,0,0,0); }
+ 
+ol, ul,li{ list-style: none;}
+
+table { border-collapse: collapse;/*表格的边线重叠*/ border-spacing: 0; }
+input,textarea{resize:none;/*调整尺寸*/ -webkit-user-select: auto !important;} 
+input{border: none;}
+:focus{outline:none;}
+
+input[type="submit"], input[type="reset"], input[type="button"], input[type="password"], input[type="text"], input[type="search"], input[type="number"], button {
+	-webkit-appearance: none;/* 针对表单的默认的样式进行清除  比如立体效果*/
+	outline: none;
+}
+
+img{ display:block;vertical-align: middle;border: 0 none;}
+
+a,a:link,a:visited{ text-decoration:none; color:#343434; }
+a:hover{ color:#ff6699;
+	}
+.clearfix:after{content:""; display:block; height:0; clear:both; visibility:hidden;}
+
+.fl{float:left;}
+.fr{float:right;}
+ 
+html{font-size:100px;/*表示100px=1rem;       625%    62.5%*/}
+
+body{font-family: "microsoft yahei", "\534E\6587\7EC6\9ED1", Verdana, Arial, Helvetica, sans-serif; 
+font-size:24px; background:rgba(204,204,204,0.2); -webkit-user-select:none; /*禁止选中内容*/-webkit-text-size-adjust: none;/*不调整（拉伸）字大小*/}  
+
+                 /*微软雅黑      华文细黑                                         最后一个字体：ios系统默认 */
+.m_layout{ width:100%; height:auto; background:#EFEFEF; max-width:7.5rem;position: relative; min-width:3.2rem; margin:0 auto;-webkit-overflow-scrolling:touch;overflow: hidden;}
+/*header 开始*/
+.header{width:100%;position: fixed;z-index: 1000;max-width:7.5rem;}
+.header .header-module{width:100%;  height: 0.88rem;background: rgba(183,0,6,1);position: relative;}
+.header .header-module .header_l{height:100%;display: inline-block;overflow: hidden;float: left;}
+.header .header-module .header_l img{width: 1.88rem;height: 0.44rem; float: left; margin:0.22rem 0rem 0rem 0.22rem; }
+.header .header-module .address_tag{display:block;margin-top: 0.38rem;float: left;font-size: 0.24rem;margin-left: 0.28rem;color: #fff;position: relative;}
+.header .header-module .address_tag::after{content: "";width: 0.16rem;height: 0.16rem;display: inline-block;border-left: 0.02rem solid #fff;border-bottom:0.02rem solid #fff;transform: rotate(-45deg);position: absolute;top: 0.04rem;left: 0.54rem }
+.header .header-module .search_input{width: 2.06rem;height: 0.5rem;float: right;margin:0.22rem 0rem 0rem 0rem;border-radius: 0.3rem;background: #f1cccd;padding: 0.08rem 0rem 0rem 0.16rem;font-size: 0.24rem;color: #b70005;}
+.header .header-module .search_input label::before{content: "";width: 0.24rem;height: 0.26rem;display:inline-block;background: url(../images/search_icon.png) no-repeat 0rem 0.06rem;background-size: 0.2rem 0.2rem;margin-right: 0.01rem}
+.header .header-module .app-downland{width: 0.38rem;height: 0.38rem;display: inline-block;float: right;background: url(../images/app_icon.png) no-repeat;background-size:0.38rem 0.38rem;  margin: 0.28rem 0rem 0rem 0.22rem }
+.header .header-module .tt_person{width: 0.34rem;height: 0.34rem;display: inline-block;float: right;background: url(../images/white_person.png) no-repeat;background-size: 0.34rem 0.34rem;margin: 0.32rem 0.32rem 0rem 0.28rem}
+
+#header-nav{width: 100%;height: 1.4rem}
+.affix {position: fixed;z-index: 100;top: 0;width: 100%;background: white;}
+.header .clearfix{width: 100%;height: 0.7rem;background:rgba(183,0,6,1);/*position: fixed;*/margin-bottom: 0rem;}
+.header .clearfix li{width: 25%;height: 100%;float: left;text-align: center;line-height: 0.7rem;}
+.header .clearfix li a{width: 100%;height: 100%;color: #db7e81;font-size: 0.32rem}
+.header .clearfix li a.click{color: #fff}
+.header .clearfix_bottom{width: 100%;height: 0.7rem;padding-left: 0.2rem;background: #fff;white-space:nowrap;overflow: hidden;border-bottom: 0.01rem solid #EAEAEA;}
+.header .clearfix_bottom  .swiper-wrapper div{width: 0.7rem;height: 0.7rem;margin-right:0.4rem ;float: left;}
+.header .clearfix_bottom .swiper-wrapper div a{width: 90%;height: 0.68rem;line-height: 0.64rem;text-align: center;color: #696969;font-size: 0.26rem}
+.header .clearfix_bottom .swiper-wrapper div a.checked{border-bottom: 0.04rem solid red;color: #1c1c1c}
+/*header结束*/
+
+
+
+
+
